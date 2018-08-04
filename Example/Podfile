@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZDialog_Example' do
+  pod 'ZDialog', :path => '../'
+
+  target 'ZDialog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
